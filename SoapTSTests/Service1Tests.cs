@@ -27,7 +27,7 @@ namespace SoapTS.Tests
         [TestMethod()]
         public void GetaddTest()
         {
-            Assert.AreEqual("elisagaardsvej 55", s.GetAddress());
+            Assert.AreEqual("elisagaardsvej 5", s.GetAddress());
         }
     }
 }
