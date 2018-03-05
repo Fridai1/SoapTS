@@ -13,14 +13,20 @@ namespace SoapTS
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
+        private Class1 s;
         public Service1()
         {
-            
+            s = new Class1();
         }
         public string GetName()
         {
-            Class1 s = new Class1();
+            
             return s.GetName();
+        }
+
+        public string GetAddress()
+        {
+            return s.GetAdress();
         }
     }
 }

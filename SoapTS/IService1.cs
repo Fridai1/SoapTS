@@ -15,6 +15,8 @@ namespace SoapTS
 
         [OperationContract]
         string GetName();
+        [OperationContract]
+        string GetAddress();
 
     }
 }
