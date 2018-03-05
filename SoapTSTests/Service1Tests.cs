@@ -23,5 +23,11 @@ namespace SoapTS.Tests
         {
             Assert.AreEqual("Nikolai", s.GetName());
         }
+
+        [TestMethod()]
+        public void GetaddTest()
+        {
+            Assert.AreEqual("elisagaardsvej 55", s.GetAddress());
+        }
     }
 }
