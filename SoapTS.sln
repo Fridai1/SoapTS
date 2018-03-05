@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapTS", "SoapTS\SoapTS.csproj", "{D29E6B06-B8BA-4D82-83FD-404F7A12F619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D29E6B06-B8BA-4D82-83FD-404F7A12F619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29E6B06-B8BA-4D82-83FD-404F7A12F619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29E6B06-B8BA-4D82-83FD-404F7A12F619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29E6B06-B8BA-4D82-83FD-404F7A12F619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B650722-51D0-4B17-9729-21B089C30D09}
+	EndGlobalSection
+EndGlobal
